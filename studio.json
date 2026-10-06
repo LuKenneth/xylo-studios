@@ -1,0 +1,9 @@
+{
+  "name": "Xylo Studios",
+  "unityEditor": "6000.3.25f1",
+  "unityTemplates": {
+    "2d": "com.unity.template.universal-2d",
+    "3d": "com.unity.template.urp-blank"
+  },
+  "gamesDir": "games"
+}

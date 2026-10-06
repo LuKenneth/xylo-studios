@@ -1,0 +1,83 @@
+# ---- Studio-owned content: each lives in its own (private) repo or stays local ----
+/games/*
+!/games/README.md
+/art/*
+!/art/README.md
+/audio/*
+!/audio/README.md
+/builds/
+
+# ---- Secrets & credentials (never commit) ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+*.mobileprovision
+*.ulf
+*.alf
+*.ulf.xml
+steam_appid.txt
+**/steamworks/config/**
+credentials*.json
+secrets*.json
+*.secret
+
+# ---- Unity (for any project placed outside games/) ----
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*.csproj
+*.sln
+*.slnx
+*.pidb
+*.booproj
+*.unityproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+crashlytics-build.properties
+sysinfo.txt
+
+# ---- Python / Node ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+.ruff_cache/
+
+# ---- Editors / OS ----
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- Blender / art app backups ----
+*.blend1
+*.blend2
+*.kra~
+*~
+
+# ---- Agent local state ----
+.claude/settings.local.json
+.claude/*.local.*
